@@ -6,7 +6,7 @@ export default function BlogLayout() {
     <>
       <h2>Blog Layout</h2>
       <nav>
-        <Link to="/blog">Blog Home</Link> |{" "}
+        <Link to="/blog">Blog Home</Link>
         <Link to="/blog/101">Example Post</Link>
       </nav>
       <hr />
