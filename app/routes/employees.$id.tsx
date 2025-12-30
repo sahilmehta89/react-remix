@@ -27,7 +27,6 @@ export async function loader({ params }: LoaderFunctionArgs) {
   return employee;
 }
 
-// Component
 export default function EmployeeDetails() {
   const employee = useLoaderData() as Employee;
 

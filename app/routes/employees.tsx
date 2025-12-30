@@ -2,7 +2,6 @@ import { Link, useLoaderData } from "react-router";
 
 type Employee = { id: number; name: string; department: string };
 
-// 1️⃣ Create loader
 export const loader = async () => {
   const employees: Employee[] = [
     { id: 1, name: "Amit Sharma", department: "IT" },
